@@ -1,0 +1,292 @@
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.rightbarcss{
+    display: block;
+    width: 100%;
+    border-right: 1px solid #ececec;
+    height: 100%;
+    float: left;
+    padding: 0px 0px 10px 3px;
+    transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
+    z-index: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+}
+.rightbarcss1{
+    display: block;
+    width: 100%;
+    border-right: 1px solid #ececec;
+    height: 100%;
+    float: left;
+    padding: 0px 0px 10px 3px;
+    transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
+    z-index: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+}
+#rightbarhead{
+    float: left;
+    width: 100%;
+    height: 60px;
+    /*border-bottom: 1px solid #ececec;*/
+}
+#rightnotetitle{
+    float: left;
+    margin-left: 3%;
+    padding-top: 11px;
+    width: 20%;
+    height: 40px;
+    /*background-color: #f8f8f8;*/
+    /*font-size: 24px;*/
+    font: 400 24px Arial;
+    /*font-family: "黑体";*/
+    color: rgb(106,125,126);
+}
+#rightnotebook{
+    float: left;
+    margin-left: 14%;
+    padding-top: 18px;
+    width: 18%;
+    height: 32px;
+}
+#select{
+    width: 100%;
+    height: 100%;
+}
+#tnbimg{
+    float: left;
+    padding-top: 5px;
+    width: 15px;
+    height: 18px;
+}
+#rightnotebookname{
+    float: left;
+    padding-left: 8px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: rgb(106,125,126);
+}
+#righttag{
+    float: left;
+    margin-left: 3%;
+    padding-top: 18px;
+    width: 20%;
+    height: 40px;
+
+}
+#righttagname{
+    float: left;
+    margin-left: 5px;
+    margin-top: 4px;
+    width: 80%;
+    height: 16px;
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(106,125,126);
+}
+
+#rightdelete{
+    display: block;
+    float: left;
+    margin-left: 2%;
+    padding-top: 15px;
+    width: 22px;
+    height: 28px;
+    cursor: pointer;
+}
+#rightpdf,#rightshare{
+    display: block;
+    float: left;
+    margin-left: 2%;
+    padding-top: 16px;
+    width: 24px;
+    height: 29px;
+    cursor: pointer;
+}
+#rightsave{
+    display: block;
+    float: left;
+    margin-left: 2%;
+    padding-top: 18px;
+    width: 23px;
+    height: 26px;
+    cursor: pointer;
+}
+.rightbartextarea{
+    float: left;
+    margin-left: 3%;
+    width: 94%;
+    height: 87%;
+    /*background-color: #f8f8f8;*/
+    border-top: 1px solid #ececec;
+    padding-top: 5px;
+    /*padding-left: 2%;*/
+    /*padding-right: 2%;*/
+}
+/*笔记本信息修改界面*/
+.rightbarcss2{
+    display: block;
+    width: 100%;
+    border-right: 1px solid #ececec;
+    height: 100%;
+    float: left;
+    padding: 0px 0px 10px 3px;
+    transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
+    z-index: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+}
+.rightnotebookInfoarea{
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 85%;
+    /*background-color: #f8f8f8;*/
+}
+#rnbiimg{
+    float: left;
+    margin-left: 45%;
+    width: 50px;
+    height: 40px;
+}
+#rnbnameinput{
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    height: 50px;
+    /*background-color: #f8f8f8;*/
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+}
+#inputtitle{
+    float: left;
+    margin-top: 8px;
+    margin-left: 7px;
+    padding-left: 10px;
+    padding-top: 4px;
+    width: 7.8%;
+    height: 29px;
+    /*background-color: #f8f8f8;*/
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    font: 100 16px Arial;
+    color: #878787;
+}
+#afterit{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 27px;
+    width: 85%;
+    font: 100 16px Arial;
+    color: rgb(106,125,126);
+    background: none;
+    outline: none;
+    border: none;
+}
+#runameinput{
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+}
+#inputuser{
+    float: left;
+    margin-top: 8px;
+    margin-left: 7px;
+    padding-left: 10px;
+    padding-top: 4px;
+    width: 10%;
+    height: 29px;
+    /*background-color: #f8f8f8;*/
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    font: 100 16px Arial;
+    color: #878787;
+}
+#afteriu{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 27px;
+    width: 80%;
+    font: 100 16px Arial;
+    color: rgb(106,125,126);
+    background: none;
+    outline: none;
+    border: none;
+}
+#rctimeinput{
+    float: left;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 90%;
+    height: 50px;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+}
+#inputtime{
+    float: left;
+    margin-top: 8px;
+    margin-left: 7px;
+    padding-left: 10px;
+    padding-top: 4px;
+    width: 13%;
+    height: 29px;
+    /*background-color: #f8f8f8;*/
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    font: 100 16px Arial;
+    color: #878787;
+}
+#afteritt{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 27px;
+    width: 80%;
+    font: 100 16px Arial;
+    color: rgb(106,125,126);
+    background: none;
+    outline: none;
+    border: none;
+}
+#savebutton{
+    float: left;
+    margin-top: 50px;
+    margin-left: 31%;
+    width: 14%;
+    padding-top: 5px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(106,125,126);
+    font: 100 17px Arial;
+    color: rgb(106,125,126);
+    cursor: pointer;
+}
+#deletebutton{
+    float: left;
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 14%;
+    padding-top: 5px;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(106,125,126);
+    font: 100 17px Arial;
+    color: rgb(106,125,126);
+    cursor: pointer;
+}

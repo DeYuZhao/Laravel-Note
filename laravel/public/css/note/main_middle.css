@@ -1,0 +1,564 @@
+.middlebarcss{
+    width: 399px;
+    border-right: 1px solid #ececec;
+    height: 100%;
+    float: left;
+    padding: 0px 0px 10px 3px;
+    transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
+    z-index: 0;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+}
+.shownote{
+    width: 100%;
+    /*border-right: 1px solid rgb(106,125,126);*/
+    height: 100%;
+    /*float: left;*/
+    /*padding: 0px 0px 10px 3px;*/
+    /*transition: width 0.2s ease-in-out, left 0.2s ease-in-out;*/
+    /*z-index: 200;*/
+    /*box-sizing: border-box;*/
+    /*position: absolute;*/
+    background-color: white;
+}
+.notehead{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    /*border-bottom: 1px solid #ececec;*/
+}
+.mnhead{
+    display: block;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 16%;
+    height: 35%;
+    background-color: white;
+    font-size: 28px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+}
+.mnheadcutlogo{
+    display: block;
+    float: left;
+    background-color: white;
+    margin-left: 55%;
+    margin-top: 7%;
+    width: 6%;
+    height: 20%;
+}
+.mnheadcutword{
+    display: block;
+    float: left;
+    background-color: white;
+    /*margin-left: 55%;*/
+    margin-top: 6.5%;
+    width: 16%;
+    height: 20%;
+    font-size: 13px;
+    text-align: center;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+    cursor: pointer;
+    border: 1px solid rgb(106,125,126);
+    border-radius: 2px;
+}
+.mnheadsumnote{
+    display: block;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 24%;
+    height: 15%;
+    font-size: 12px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+    background-color: white;
+}
+.totalnote{
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+}
+/*笔记信息查看按钮*/
+.snInfo{
+    float: left;
+    cursor: pointer;
+    margin-left: 11%;
+    width: 6.8%;
+    padding-top: 2.5%;
+    height: 16%;
+}
+/*笔记本信息查看按钮*/
+.sntInfo{
+    float: left;
+    cursor: pointer;
+    margin-left: 11%;
+    width: 6.8%;
+    padding-top: 1%;
+    height: 16%;
+}
+::-webkit-scrollbar {
+    width:5px;
+}
+
+/* 轨道 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+/* 手柄 */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    background:rgba(200,200,200,0.7);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+/* 手柄激活态 */
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(200,200,200,0.4);
+}
+#firstNote{
+    display: block;
+    float: left;
+    width: 99.5%;
+    height: 125px;
+    border-top: 1px solid #ececec;
+    /*cursor: pointer;*/
+    background-color: white;
+}
+#firstNoteTitle{
+    display: block;
+    float: left;
+    padding-left: 3%;
+    padding-top: 1%;
+    width: 49%;
+    height: 18%;
+    font-size: 17px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: black;
+    background-color: white;
+}
+#firstNoteUpdateTime{
+    display: block;
+    float: left;
+    padding-top: 3%;
+    width: 27%;
+    height: 12%;
+    font-size: 12px;
+    text-align: right;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+    background-color: white;
+}
+#firstNoteBookAndTag{
+    display: block;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 49%;
+    height: 18%;
+    font-size: 12px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+    background-color: white;
+}
+#firstNoteIntroduction{
+    display: block;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 97%;
+    height: 54%;
+    font-size: 12px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+    background-color: white;
+}
+/*新建界面的css*/
+#newhead{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+#inputarea{
+    margin-left: 3%;
+    width: 93%;
+    margin-top: 20px;
+    height: 40px;
+    background-color: white;
+    border-bottom: 1px solid rgb(106,125,126);
+}
+#nntn{
+    font-size: 20px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    font-weight: 300;
+    width: 100%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+#choicearea{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#cninputarea{
+    /*margin-left: 3%;*/
+    width: 100%;
+    margin-top: 20px;
+    height: 470px;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+#nntc{
+    font-size: 20px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    font-weight: 300;
+    margin-left: 3%;
+    width: 93%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: left;
+}
+#completenewnote{
+    font-size: 16px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 15px;
+    padding-top: 3px;
+    width: 16%;
+    border-radius: 5px;
+    height: 26px;
+    border: 1px solid rgb(106,125,126);
+    cursor: pointer;
+}
+/*搜索界面css*/
+#searchhead{
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+#searchheadinput{
+    margin-left: 3%;
+    width: 93%;
+    margin-top: 20px;
+    height: 40px;
+    background-color: white;
+    border-bottom: 1px solid rgb(106,125,126);
+}
+#si{
+    float: left;
+    font-size: 20px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    font-weight: 300;
+    width: 90%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+#searchimg{
+    float: left;
+    margin-top: 10px;
+    width: 7%;
+    height: 100%;
+    cursor: pointer;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+#searresult{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+}
+/*笔记本界面css*/
+#notebookhead,#grouphead{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+#notebookname,#groupname{
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 57%;
+    height: 35%;
+    background-color: white;
+    font-size: 24px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+}
+#addnotebookinput,#groupinput{
+    /*margin-left: 3%;*/
+    float: left;
+    width: 38%;
+    margin-top: 12px;
+    height: 30%;
+    background-color: white;
+    /*border-bottom: 1px solid rgb(106,125,126);*/
+}
+#showunfollows{
+    cursor: pointer;
+    float: left;
+    text-align: center;
+    margin-top: 8px;
+    margin-left: 50%;
+    width: 50%;
+    height: 70%;
+    color: rgb(106,125,126);
+    font-size: 14px;
+    border: 1px solid rgb(106,125,126);
+    background-color: white;
+    border-radius: 5px;
+}
+#addnbi{
+    float: left;
+    font-size: 14px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    font-weight: 300;
+    width: 80%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+#addnotebookimg{
+    float: left;
+    margin-top: 6px;
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
+}
+#searchnotebook,#searchgroup{
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 95%;
+    height: 30%;
+    border: 1px solid rgb(106,125,126);
+    border-radius: 10px;
+}
+#snbi,#sgroup{
+    float: left;
+    padding-left: 3%;
+    font-size: 12px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    font-weight: 300;
+    width: 90%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+#searchnotebookimg{
+    float: left;
+    margin-top: 6px;
+    width: 5%;
+    height: 100%;
+    cursor: pointer;
+}
+#searchnotebookresult,#searchgroupresult{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+}
+#secondNoteIntroduction{
+    display: block;
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 97%;
+    height: 18%;
+    font-size: 12px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+    background-color: white;
+}
+#secondNote{
+    display: block;
+    float: left;
+    width: 99.5%;
+    height: 125px;
+    border-top: 1px solid #ececec;
+    background-color: white;
+}
+.looknotebutton{
+    float: left;
+    font-size: 14px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    text-align: center;
+    margin-left: 84%;
+    margin-top: 3px;
+    /*padding-top: 3px;*/
+    width: 12%;
+    border-radius: 5px;
+    height: 20px;
+    border: 1px solid rgb(106,125,126);
+    cursor: pointer;
+}
+/*标签界面css*/
+#taghead{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: 1px solid #ececec;
+}
+#tagname{
+    float: left;
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 57%;
+    height: 35%;
+    background-color: white;
+    font-size: 24px;
+    text-align: left;
+    font-family: "trebuchet MS", sans-serif;
+    color: rgb(106,125,126);
+}
+#addtaginput{
+    /*margin-left: 3%;*/
+    float: left;
+    width: 38%;
+    margin-top: 12px;
+    height: 30%;
+    background-color: white;
+    border-bottom: 1px solid rgb(106,125,126);
+}
+#addtagi{
+    float: left;
+    font-size: 14px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    font-weight: 300;
+    width: 81%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+#addtagimg{
+    float: left;
+    margin-top: 5px;
+    width: 17%;
+    height: 100%;
+    cursor: pointer;
+}
+#searchtag{
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    width: 95%;
+    height: 30%;
+    border: 1px solid rgb(106,125,126);
+    border-radius: 10px;
+}
+#stagi{
+    float: left;
+    padding-left: 3%;
+    font-size: 12px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+    font-weight: 300;
+    width: 90%;
+    height: 100%;
+    background: none;
+    border: none;
+    outline: none;
+}
+#searchtagimg{
+    float: left;
+    margin-top: 6px;
+    width: 5%;
+    height: 100%;
+    cursor: pointer;
+}
+#searchtagresult{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow-y: auto;
+}
+#onetag,#oneuser{
+    display: block;
+    float: left;
+    width: 99.5%;
+    height: 60px;
+    border-top: 1px solid #ececec;
+    cursor: pointer;
+    background-color: white;
+}
+#tagtitle,#un{
+    float: left;
+    margin-left: 3%;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    margin-top: 7%;
+    width: 72%;
+    height: 26%;
+    border: 1px solid rgb(106,125,126);
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+}
+.tsnote{
+    float: left;
+    margin-left: 6%;
+    padding-top: 0.5%;
+    padding-left: 3%;
+    margin-top: 7%;
+    width: 11%;
+    height: 35%;
+    border: 1px solid rgb(106,125,126);
+    border-radius: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-family: caecilia, times, serif;
+    color: rgb(106,125,126);
+}
